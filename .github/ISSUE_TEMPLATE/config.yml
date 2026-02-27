@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: FAQ
+    url: https://notmilk.github.io/BackyardSapTracker-support/faq
+    about: Check if your question is already answered.
+  - name: Guides
+    url: https://notmilk.github.io/BackyardSapTracker-support/guides/
+    about: Step-by-step walkthroughs for common tasks.

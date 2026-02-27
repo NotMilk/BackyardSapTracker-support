@@ -1,0 +1,24 @@
+name: General Feedback
+description: Questions, comments, or anything else.
+title: "[Feedback]: "
+labels: ["feedback"]
+body:
+  - type: textarea
+    id: message
+    attributes:
+      label: What's on your mind?
+      description: Questions, suggestions, or general feedback about the app.
+      placeholder: "I wanted to ask about..."
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform (if applicable)
+      options:
+        - Android
+        - iOS
+        - Both
+        - N/A
+    validations:
+      required: false

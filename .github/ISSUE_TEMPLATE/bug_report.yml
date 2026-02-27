@@ -1,0 +1,70 @@
+name: Bug Report
+description: Report something that is broken or not working as expected.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug. What were you doing when it occurred?
+      placeholder: "I was logging a sap collection and..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      placeholder: "The collection should have been saved with the Brix reading."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce this bug?
+      placeholder: |
+        1. Open the collection screen
+        2. Select a tap
+        3. Enter volume and Brix
+        4. Tap save
+    validations:
+      required: false
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Android
+        - iOS
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: OS version
+      placeholder: "e.g., Android 14, iOS 17.2"
+    validations:
+      required: false
+  - type: input
+    id: device
+    attributes:
+      label: Device model
+      placeholder: "e.g., Pixel 8, iPhone 15"
+    validations:
+      required: false
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Found in Settings.
+      placeholder: "e.g., 1.2.0"
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Attach screenshots if they help illustrate the issue.
+    validations:
+      required: false
