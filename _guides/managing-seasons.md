@@ -26,6 +26,8 @@ Season start and end dates are editable at any time. Changing dates does not aff
 
 Use the season selector to switch between past and current seasons. All dashboard data, collections, and boil records update to reflect the selected season.
 
+When switching to a past season that has tap dates, the app automatically fetches historical weather data from Open-Meteo for any dates missing weather records. Manual weather entries are preserved and never overwritten.
+
 ## Past and future seasons
 
 The app supports arbitrary past or future season years. You can create a season for any year to enter historical data or plan ahead.
