@@ -34,6 +34,10 @@ The app supports Fahrenheit and Celsius. It auto-detects the appropriate unit fr
 
 When enabled, the app automatically fetches weather data when you open it. This requires an internet connection. Without auto-fetch, you can manually trigger a weather update from the dashboard.
 
+## Historical weather for past seasons
+
+When you switch to a past season that has tap dates, the app automatically fetches historical weather data for any missing dates in that season's range. This works even if some weather entries already exist for that season. Manual weather entries are preserved and never overwritten.
+
 ## Sap flow prediction
 
 Sap flow days are determined by temperature patterns: a freeze overnight (below 32F / 0C) followed by a thaw during the day. The app uses historical 5-year temperature averages to extend predictions out to 45 days beyond the current forecast.
