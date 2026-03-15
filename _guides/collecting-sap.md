@@ -16,6 +16,10 @@ order: 2
 
 You can log multiple collections per tap per day. Each entry is recorded separately.
 
+## Backdating collections for pulled taps
+
+You can log collections for taps that have already been pulled, as long as the collection date falls between the tap's install date and pull date. When you change the date in the collection modal, the available tap list updates automatically to show taps that were active on that date.
+
 ## Brix readings
 
 Brix readings are optional but enable per-collection syrup estimates using the Rule of 86. If no Brix reading is provided, the app uses the species-specific default Brix shown on the tree card.
