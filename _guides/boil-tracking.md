@@ -21,9 +21,11 @@ After saving a boil, the app identifies which sap collections were likely used. 
 
 ## Summary widgets
 
-The boil tracking tab shows summary widgets for:
+The boil tracking tab shows summary widgets for the currently selected season:
 
 - Available sap (collected but not yet boiled)
 - Estimated output from available sap
 - Total gallons boiled
 - Total syrup produced
+
+All totals reflect only the selected season. Switch seasons using the season selector to view past season totals.
